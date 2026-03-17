@@ -51,6 +51,11 @@ nav a{
   background:white;
 }
 
+img{
+  width: 150px;
+  border-radius: 50%;
+}
+
 .hero h1{
   font-family: 'Chloe', serif;
   font-size: 4rem;
