@@ -1,9 +1,13 @@
+/* FONT */
 @font-face {
   font-family: 'Chloe';
-  src: url('fonts/Chloe-Regular.woff2') format ('woff2'):
-  font-weight:normal;
-  font-style:normal;
-  
+  src: url('fonts/Chloe-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* GLOBAL */
 body{
   margin: 0;
   padding: 0;
@@ -11,88 +15,84 @@ body{
   color:#333;
   font-family:'Inter', sans-serif;
   line-height:1.7;
-
 }
 
+
+/* NAVBAR */
 nav{
-
-display:flex;
-justify-content:space-between;
-
-padding:20px 40px;
-
-background:#111;
-color:white;
-
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:#111;
+  color:white;
 }
 
 nav ul{
-
-display:flex;
-list-style:none;
-
-gap:20px;
-
+  display:flex;
+  list-style:none;
+  gap:20px;
 }
 
 nav a{
-
-color:white;
-text-decoration:none;
-
+  font-family: 'Chloe', serif;
+  font-size: 1.1rem;
+  color:white;
+  text-decoration:none;
 }
 
-section{
 
-padding:80px 40px;
-text-align:center;
-
-}
-
+/* HERO */
 .hero{
+  height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:white;
+}
 
-height:80vh;
-
-display:flex;
-flex-direction:column;
-
-justify-content:center;
-align-items:center;
-
-background:white;
-
+.hero h1{
+  font-family: 'Chloe', serif;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom:10px;
 }
 
 .tagline{
-
-font-size:20px;
-color:#555;
-
-margin-bottom:30px;
-
+  font-size:20px;
+  color:#555;
+  margin-bottom:30px;
 }
 
+
+/* SECTION */
+section{
+  padding:80px 40px;
+  text-align:center;
+}
+
+section h2{
+  font-family: 'Lora', serif;
+  font-weight:700;
+  font-size:2.5rem;
+  margin-bottom:20px;
+}
+
+
+/* BUTTON */
 .btn{
-
-background:#111;
-color:white;
-
-padding:12px 25px;
-
-text-decoration:none;
-
-border-radius:6px;
-
+  background:#111;
+  color:white;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:6px;
 }
 
-}
 
+/* FOOTER */
 footer{
-
-background:#111;
-color:white;
-
-text-align:center;
-padding:20px;
-
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:20px;
 }
