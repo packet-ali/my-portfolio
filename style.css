@@ -7,8 +7,15 @@
 }
 
 @font-face {
+  font-family: 'Lora';
+  src: url('./fonts/Lora-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Inter';
-  src: URL('./fonts/Inter_18pt-Light.woff2') format('woff2');
+  src: url('./fonts/Inter_18pt-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
@@ -33,6 +40,13 @@ nav{
   color:white;
 }
 
+nav h2{
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  color:white;
+  text-decoration:none;
+}
+
 nav ul{
   display:flex;
   list-style:none;
@@ -40,7 +54,7 @@ nav ul{
 }
 
 nav a{
-  font-family: 'Chloe', serif !important;
+  font-family: 'Lora', serif;
   font-size: 1.1rem;
   color:white;
   text-decoration:none;
@@ -63,7 +77,8 @@ img{
 }
 
 .hero h1{
-  font-family: 'Chloe', serif;
+  font-family: 'Lora', serif;
+  font-weight: 700;
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom:10px;
