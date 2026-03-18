@@ -35,7 +35,7 @@ body{
 nav{
   display:flex;
   justify-content:space-between;
-  padding:20px 10px;
+  padding:20px;
   background:#111;
   color:white;
 }
