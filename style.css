@@ -36,7 +36,7 @@ nav{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:20px;
+  padding:20px 40px;
   background:#111;
   color:white;
 }
@@ -64,6 +64,7 @@ nav a{
 
 /* HERO */
 .hero{
+  gap:12px;
   height:80vh;
   display:flex;
   flex-direction:column;
@@ -72,13 +73,9 @@ nav a{
   background:white;
 }
 
-.hero h1{
-  flex-direction:row;
-}
-
 img{
-  flex-direction:row;
-  width: 20vw;
+  width: 150px;
+  max-width: 20vw;
   border-radius: 50%;
 }
 
@@ -86,6 +83,7 @@ img{
   font-family: 'Lora', serif;
   font-weight: 700;
   font-size: 4rem;
+  letter-spacing: -0.5px;
   line-height: 1.1;
   margin-bottom:10px;
 }
@@ -105,7 +103,7 @@ section{
 
 section h2{
   font-family: 'Lora', serif;
-  font-weight:700;
+  font-weight:600;
   font-size:2.5rem;
   margin-bottom:20px;
 }
@@ -118,6 +116,11 @@ section h2{
   padding:12px 25px;
   text-decoration:none;
   border-radius:6px;
+}
+
+.btn:hover{
+  background:#333;
+  transition: 0.3s;
 }
 
 
