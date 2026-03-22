@@ -66,13 +66,18 @@ nav a{
 .hero{
   height:80vh;
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:center;
   align-items:center;
   background:white;
 }
 
+.hero h1{
+  flex-direction:row;
+}
+
 img{
+  flex-direction:row;
   width: 20vw;
   border-radius: 50%;
 }
