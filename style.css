@@ -64,21 +64,24 @@ nav a{
 
 /* HERO */
 .hero{
-  gap:12px;
-  height:80vh;
   display:flex;
-  flex-direction:column;
-  justify-content:center;
   align-items:center;
+  justify-content:center;
+  gap:40px; /* jarak foto dan teks */
+  padding: 0 40px;
+  height:80vh;
   background:white;
-}
 
-img{
-  padding: 20px;
-  width: 20vw;
-  border-radius: 50%;
+.hero img{
+  width: 180px;
+  border-radius:50%;
 }
-
+  
+.hero-text{
+  text-align:left;
+  max-width:500px;
+}
+  
 .hero h1{
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -91,7 +94,7 @@ img{
 .tagline{
   font-size:20px;
   color:#555;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 
 
