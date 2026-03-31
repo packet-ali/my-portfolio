@@ -67,7 +67,7 @@ nav a{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:40px; /* jarak foto dan teks */
+  gap:40px;
   padding: 0 40px;
   height:80vh;
   background:white;
@@ -77,12 +77,12 @@ nav a{
   width: 20vw;
   border-radius:50%;
 }
-  
+
 .hero-text{
   text-align:left;
   max-width:500px;
 }
-  
+
 .hero h1{
   font-family: 'Lora', serif;
   font-weight: 700;
