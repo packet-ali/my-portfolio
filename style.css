@@ -66,35 +66,38 @@ nav a{
 .hero{
   display:flex;
   align-items:center;
-  justify-content:center;
-  margin:20px;
-  gap:40px;
-  padding: 0 40px;
+  justify-content:flex-start;
+  gap:50px;
+
+  padding-left:20px;   /* ← ini kuncinya */
+  padding-right:40px;
+
   height:80vh;
   background:white;
 }
 
 .hero img{
-  width: 20vw;
+  width: 220px;       /* dari sebelumnya lebih besar */
+  max-width: 30vw;
   border-radius:50%;
 }
 
 .hero-text{
   text-align:left;
-  max-width:500px;
+  max-width: 550px;
 }
 
 .hero h1{
   font-family: 'Lora', serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4.8rem;  /* sebelumnya 4rem */
   letter-spacing: -0.5px;
   line-height: 1.1;
   margin-bottom:10px;
 }
 
 .tagline{
-  font-size:20px;
+  font-size: 22px;
   color:#555;
   margin-bottom:20px;
 }
@@ -118,7 +121,8 @@ section h2{
 .btn{
   background:#111;
   color:white;
-  padding:12px 25px;
+  padding:14px 30px;
+  font-size:16px;
   text-decoration:none;
   border-radius:6px;
 }
